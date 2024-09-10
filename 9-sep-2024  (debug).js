@@ -53,7 +53,7 @@ function checkNumber(num) {
 calculateArea();
 
 function calculateArea() {
-  const radius = 5;
+  let radius = 5;
   let area = Math.PI * radius * radius;
   console.log(area);
 }
