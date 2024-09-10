@@ -34,9 +34,8 @@ console.log(concatStrings("Krishna", "moorthy"));
 function isAdult(age) {
   if (age >= 18) {
     return true;
-  } else {
-    return false;
-  }
+  } 
+  return false;
 }
 console.log(isAdult(37));
 

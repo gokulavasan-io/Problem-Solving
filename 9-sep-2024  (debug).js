@@ -50,19 +50,18 @@ function checkNumber(num) {
 
 
 //1st
-calculateArea();
 
-function calculateArea() {
-  let radius = 5;
+
+function calculateArea(radius) {
   let area = Math.PI * radius * radius;
   console.log(area);
 }
+calculateArea(5);
 
-function greetUser() {
-  let userName = "John";
+function greetUser(userName) {
   console.log(userName);
 }
-greetUser();
+greetUser("John");
 
 //2nd
 let count = 1;
