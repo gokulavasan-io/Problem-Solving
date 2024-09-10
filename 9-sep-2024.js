@@ -32,10 +32,7 @@ console.log(concatStrings("Krishna", "moorthy"));
 
 //6th question
 function isAdult(age) {
-  if (age >= 18) {
-    return true;
-  } 
-  return false;
+  return age>=18;
 }
 console.log(isAdult(37));
 
@@ -48,11 +45,7 @@ console.log(result);
 
 //8th question
 function isEven(num) {
-  if (num % 2 == 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num%2==0;
 }
 
 console.log(isEven(6));
