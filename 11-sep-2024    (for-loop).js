@@ -1,8 +1,9 @@
 //1st
 let n=4;
 let sum=0;
+let table=5;
 for (let i = 1; i <=n; i++) {
-    sum+=i*n;
+    sum+=i*table;
 }
 console.log(sum);
 
@@ -10,7 +11,13 @@ console.log(sum);
 let num=4;
 let result="";
 for (let i = 0; i <n; i++) {
-    result+=`${num} `;    
+    if(i==n-1){
+        result+=`${num}`;
+    }
+    else{
+        result+=`${num} `;
+    }
+    
 }
 console.log(result);
 
