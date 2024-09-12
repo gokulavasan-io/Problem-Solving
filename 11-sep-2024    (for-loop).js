@@ -1,5 +1,5 @@
 //1st
-let n=4;
+let n=3;
 let sum=0;
 let table=5;
 for (let i = 1; i <=n; i++) {
@@ -8,7 +8,7 @@ for (let i = 1; i <=n; i++) {
 console.log(sum);
 
 //2nd
-let num=4;
+let num=5;
 let result="";
 for (let i = 0; i <n; i++) {
     if(i==n-1){
