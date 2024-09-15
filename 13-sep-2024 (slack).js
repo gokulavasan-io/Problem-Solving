@@ -15,10 +15,11 @@ function robot_battery(battery) {
     console.log(`Battery level: ${battery}%`);
     battery -= 5;
   }
+  console.log("Battery is low.");
 }
 robot_battery(50);
 
-console.log("Battery is low.");
+
 
 console.log("==============================  3rd   ==============================");
 // 3. A robot can move in 4 directions: North, South, East, and West. Use a switch statement to make the robot move in the direction entered by the user and print the robot's new position after each movement.
