@@ -63,7 +63,7 @@ console.log(lower_level([30, 50, 20, 40, 60]));
 
 //6th ...Given the array days_until_festival = [30, 15, 45, 10, 25], where each element represents the number of days left until an important festival, find the closest upcoming festival.
 function closest_fest(days_until_festival) {
-  let closest_fest =days_until_festival[0];
+  let closest_fest = days_until_festival[0];
   for (let i = 0; i < days_until_festival.length; i++) {
     if (days_until_festival[i] < closest_fest) {
       closest_fest = days_until_festival[i];
@@ -103,6 +103,6 @@ function total_no_of_buses(students_per_route) {
   for (let i = 0; i < students_per_route.length; i++) {
     sum += students_per_route[i];
   }
-  return sum / 50;
+  return Math.ceil(sum / 50);
 }
 console.log(total_no_of_buses([45, 55, 30, 60, 40]));
