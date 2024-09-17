@@ -87,7 +87,7 @@ function same_time(landing_times) {
 }
 console.log(same_time([12, 15, 19, 18, 12]));
 
-//8th
+//8th ... Given the array temperatures = [75, 80, 72, 85, 90], where each element represents the temperature in a specific region of a forest, identify which regions have temperatures above 80 degrees.
 function temp_above_80(temperatures) {
   for (let i = 0; i < temperatures.length; i++) {
     if (temperatures[i] > 80) {
@@ -97,7 +97,7 @@ function temp_above_80(temperatures) {
 }
 temp_above_80([75, 80, 72, 85, 90]);
 
-//9th
+//9th ... Given the array students_per_route = [45, 55, 30, 60, 40], where each element represents the number of students assigned to different bus routes, calculate the total number of buses required if each bus can hold a maximum of 50 students.
 function total_no_of_buses(students_per_route) {
   let sum = 0;
   for (let i = 0; i < students_per_route.length; i++) {
