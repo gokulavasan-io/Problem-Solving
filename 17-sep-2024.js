@@ -1,7 +1,7 @@
 //1st .... Given the array train_departures = [10, 15, 7, 20, 5], where each element represents the departure time of a train in 24-hour format, find the earliest train to depart.
 
 function early_train(train_departures) {
-  let early = Number.MAX_VALUE;
+  let early = train_departures[0];
   for (let i = 0; i < train_departures.length; i++) {
     if (train_departures[i] < early) {
       early = train_departures[i];
@@ -51,7 +51,7 @@ console.log(average([50, 60, 70, 80, 90]));
 //5th ... Given the array water_levels = [30, 50, 20, 40, 60], where each element represents the current water level in a tank, find the tank with the lowest water level.
 
 function lower_level(water_levels) {
-  let lower_level = Number.MAX_VALUE;
+  let lower_level = water_levels[0];
   for (let i = 0; i < water_levels.length; i++) {
     if (water_levels[i] < lower_level) {
       lower_level = water_levels[i];
@@ -63,7 +63,7 @@ console.log(lower_level([30, 50, 20, 40, 60]));
 
 //6th ...Given the array days_until_festival = [30, 15, 45, 10, 25], where each element represents the number of days left until an important festival, find the closest upcoming festival.
 function closest_fest(days_until_festival) {
-  let closest_fest = Number.MAX_VALUE;
+  let closest_fest =days_until_festival[0];
   for (let i = 0; i < days_until_festival.length; i++) {
     if (days_until_festival[i] < closest_fest) {
       closest_fest = days_until_festival[i];
